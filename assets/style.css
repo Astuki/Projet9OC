@@ -61,6 +61,11 @@ body {
 	z-index: -1;
 }
 
+.nina-img{
+	max-width: 560px;
+	max-height: 560px;
+}
+
 .picture {
 	flex: 1;
 	margin: 0 20px;
