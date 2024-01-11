@@ -9,9 +9,11 @@
 			 Contact pour des séances photos personnalisées, des retouches et la création d'album."
 	>
 
-	<link rel="preload" as="style" href="./assets/bootstrap/bootstrap.min.css" >
+	<link rel="preload" as="style" href="./assets/bootstrap/bootstrap.min.css" onload="this.onload=null;this.rel='stylesheet'">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" media="print" onload="this.media='all'">
+
 	<link rel="stylesheet" href="./assets/style.css">
+	
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" >
@@ -31,7 +33,7 @@
 
 			<li>
 				<a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank">
-					<img src="assets/images/instagram.webp" alt="Image du Réseau Social Instagram" loading="lazy">
+					<img src="assets/images/instagram.webp" alt="Image du Réseau Social Instagram" class="social-media-img" loading="lazy">
 				</a>
 			</li>
 		</ul>
@@ -83,7 +85,7 @@
 
 <div id="about">
 	<div class="picture left">
-		<img src="./assets/images/nina.webp" alt="Photo vu de face de la Photographe, Nina" loading="lazy">
+		<img class="nina-img" src="./assets/images/nina.webp" alt="Photo vu de face de la Photographe, Nina" loading="lazy">
 	</div>
 	<div id="about-me">
 		<h3 class="about-me__title">A propos de moi</h3>
@@ -188,7 +190,7 @@
 			</form>
 		</div>
 		<div class="picture right">
-			<img src="./assets/images/camera.webp" alt="Photo d'un appareil photo au style rétro" loading="lazy">
+			<img src="./assets/images/camera.webp" alt="Photo d'un appareil photo au style rétro" loading="lazy" class="retro-img">
 		</div>
 	</div>
 </div>

@@ -40,6 +40,18 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: 20px;
+}
+
+.social-media-img{
+	width: 20px;
+	height: 20px;
+}
+
+
+#carouselExampleIndicators{
+	max-width: 1920px; /**/
+	max-height: 900px; /**/
 }
 
 #about {
@@ -48,13 +60,15 @@ body {
 	padding-inline: 100px;
 	padding-block: 100px;
 	position: relative;
+	max-width: 1920px;/**/
+	max-height: 760px;/**/
 }
 
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
-	width: 374px;
-	height: 329px;
+	width: 375px;/**/
+	height: 330px;/**/
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -65,6 +79,8 @@ body {
 	flex: 1;
 	margin: 0 20px;
 	z-index: 0;
+	width: 375px; /**/
+	height: 330px;/**/
 }
 
 .picture img {
@@ -88,6 +104,14 @@ body {
 #about-me p {
 	width: 80%;
 	font-size: 14px;
+}
+
+.nina-img{
+	min-width: 173px;
+	min-height: 173px;
+
+	max-width: 560px;
+	max-height: 560px;
 }
 
 #gallery {
@@ -242,6 +266,14 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+.retro-img{
+	min-width: 154px;
+	min-height: 154px;
+
+	max-width: 418px;
+	max-height: 418px;
 }
 
 @media all and (max-width: 1180px) {
