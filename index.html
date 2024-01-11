@@ -4,15 +4,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="preload" as="style" href="./assets/bootstrap/bootstrap.css" />
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" media="all">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" media="print" onload="this.media='all'">
 
 
-	<link rel="stylesheet" rel="preload" href="./assets/style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com" media="all">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin media="all">
+	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 	<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" />
-	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 
 	<meta 
 	charset="UTF-8" 
@@ -52,24 +52,23 @@
 			<div class="carousel-item active">
 				<img 
 				src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" 
-				class="d-block w-100" 
+				class="d-block w-100 carrousel" 
 				alt="Image d'un businessman Japonais de dos, image du carousel"
-				loading="lazy"
 				>
 			</div>
 			<div class="carousel-item">
 				<img 
 				src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" 
-				class="d-block w-100" 
+				class="d-block w-100 carrousel" 
 				alt="Image d'un concert avec de nombreuses personnes vu de face, image du carousel"
-				loading="lazy">
+				>
 			</div>
 			<div class="carousel-item">
 				<img 
 				src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" 
-				class="d-block w-100" 
+				class="d-block w-100 carrousel" 
 				alt="Photo prise d'un mariage, image du carousel"
-				loading="lazy">
+				>
 			</div>
 		</div>
 		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -87,7 +86,7 @@
 
 <div id="about">
 	<div class="picture left">
-		<img src="./assets/images/nina.webp" alt="Photo vu de face de la Photographe, Nina" loading="lazy" class="nina-img">
+		<img src="./assets/images/nina.webp" alt="Photo vu de face de la Photographe, Nina" loading="lazy">
 	</div>
 	<div id="about-me">
 		<h3 class="about-me__title">A propos de moi</h3>
