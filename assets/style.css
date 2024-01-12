@@ -48,10 +48,15 @@ body {
 	height: 20px;
 }
 
+.carrousel{
+	width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
 
 #carouselExampleIndicators{
-	max-width: 1920px; /**/
-	max-height: 900px; /**/
+	max-width: 1920px; 
+	max-height: 900px; 
 }
 
 #about {
@@ -60,15 +65,17 @@ body {
 	padding-inline: 100px;
 	padding-block: 100px;
 	position: relative;
-	max-width: 1920px;/**/
-	max-height: 760px;/**/
+	width: 100%;
+    height: 100%;
+	max-width: 1920px;
+	max-height: 760px;
 }
 
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
-	width: 375px;/**/
-	height: 330px;/**/
+	width: 375px;
+	height: 330px;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -79,8 +86,8 @@ body {
 	flex: 1;
 	margin: 0 20px;
 	z-index: 0;
-	width: 375px; /**/
-	height: 330px;/**/
+	width: 375px; 
+	height: 330px;
 }
 
 .picture img {
@@ -100,6 +107,7 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: clamp(15px, 3vw, 100%);
 }
 #about-me p {
 	width: 80%;
@@ -126,7 +134,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #7a7531;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {

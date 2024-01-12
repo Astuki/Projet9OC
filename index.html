@@ -9,21 +9,21 @@
 			 Contact pour des séances photos personnalisées, des retouches et la création d'album."
 	>
 
-	<link rel="preload" as="style" href="./assets/bootstrap/bootstrap.min.css" onload="this.onload=null;this.rel='stylesheet'">
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" media="print" onload="this.media='all'">
+	<link rel="preload" as="style" href="./assets/bootstrap/bootstrap.min.css" >
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" >
 
 	<link rel="stylesheet" href="./assets/style.css">
-	
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" >
-	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 
-	<title>Nina Photographe Professionnelle 📷</title>
+	<title>Nina Photographe Professionnelle 📷 - Bordeaux</title>
 </head>
 <body>
 <div class="top-header">
-	<h3 class="name">Nina Carducci</h3>
+	<h1 class="name">Nina Carducci</h1>
 	<div class="nav">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
@@ -50,9 +50,18 @@
 		<div class="carousel-inner">
 			<div class="carousel-item active">
 				<img 
-				src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" 
-				class="d-block w-100 carrousel" 
-				alt="Image d'un businessman Japonais de dos, image du carousel"
+				src="./assets/images/slider/Portrait_ryoji_iwata_1920.webp" class="d-block w-100 carrousel"
+				alt="Photographie d'un businessman Japonais traversant traversant le carrefour Hachikô"
+				srcset="
+				./assets/images/slider/Portrait_ryoji_iwata_375.webp 375w,
+				./assets/images/slider/Portrait_ryoji_iwata_768.webp 768w,
+				./assets/images/slider/Portrait_ryoji_iwata_1024.webp 1024w,
+				./assets/images/slider/Portrait_ryoji_iwata_1440.webp 1440w,
+				./assets/images/slider/Portrait_ryoji_iwata_1920.webp 1920w,
+				./assets/images/slider/Portrait_ryoji_iwata_2048.webp 2048w"
+				sizes="(min-width: 2048px) 1920px, 100vw"
+				width="1920"
+				height="888"
 				>
 			</div>
 			<div class="carousel-item">
@@ -88,8 +97,8 @@
 		<img class="nina-img" src="./assets/images/nina.webp" alt="Photo vu de face de la Photographe, Nina" loading="lazy">
 	</div>
 	<div id="about-me">
-		<h3 class="about-me__title">A propos de moi</h3>
-		<h6 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h6>
+		<h2 class="about-me__title">A propos de moi</h2>
+		<h3 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h3>
 		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 	</div>
@@ -98,16 +107,16 @@
 
 
 <div id="gallery">
-	<h3 class="title">Portfolio</h3>
+	<h2 class="title">Portfolio</h2>
 	<div class="container py-3">
 		<div class="gallery" style="display: none">
 			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="Image de la gallery catégorie Concert" loading="lazy">
 			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp" alt="Image de la gallery catégorie Entreprises" loading="lazy">
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="Image de la gallery catégorie Entreprises" loading="lazy">
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="Image de la gallery catégorie Entreprises d'une femme souriante" loading="lazy">
 			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="Image de la gallery catégorie Mariages" loading="lazy">
 			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="Image de la gallery catégorie Portrait" loading="lazy">
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="Image de la gallery catégorie Mariages" loading="lazy">
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" alt="Image de la gallery catégorie Portrait" loading="lazy">
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="Image de la gallery catégorie Mariages d'un homme et une femme devant un palmier" loading="lazy">
+			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" alt="Image de la gallery catégorie Portrait d'une femme derrière un grillage" loading="lazy">
 			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" alt="Image de la gallery catégorie Concert" loading="lazy">
 			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" alt="Image de la gallery catégorie Entreprises" loading="lazy">
 		</div>
@@ -122,15 +131,15 @@
 	</div>
 </div>
 <div id="services">
-	<h3 class="title">Mes services</h3>
+	<h2 class="title">Mes services</h2>
 	<div class="container">
 		<div class="service">
 			<div class="service__description">
-				<h3>Shooting photo</h3>
+				<h3 class="service__description__text">Shooting photo</h3>
 				<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
 			</div>
 			<div class="service__price">
-				<h4>350€/demi journée</h4>
+				<h3 class="service__price__text">350€/demi journée</h3>
 				<span>Matériel, déplacement inclus</span>
 			</div>
 
@@ -141,17 +150,17 @@
 				<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
 			</div>
 			<div class="service__price">
-				<h4>50€/photo</h4>
+				<h3>50€/photo</h3>
 				<span>2 AR par photo</span>
 			</div>
 		</div>
 		<div class="service">
 			<div class="service__description">
-				<h3>Album photos</h3>
+				<h4>Album photos</h4>
 				<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
 			</div>
 			<div class="service__price">
-				<h4>400€ album A4</h4>
+				<h3>400€ album A4</h3>
 				<span>30 pages recto/verso</span>
 			</div>
 		</div>
@@ -160,7 +169,7 @@
 <div class="quote">
 	<figure>
 		<blockquote>
-			<h1 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h1>
+			<h2 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h2>
 		</blockquote>
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
@@ -195,9 +204,12 @@
 	</div>
 </div>
 
-<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
-<script src="./assets/maugallery.js" defer></script>
-<script src="./assets/scripts.js" defer></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" ></script>
+<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="./assets/maugallery.js"></script>
+<script src="./assets/scripts.js" ></script>
+
+
 </body>
 </html>
